@@ -9,6 +9,7 @@ import store from './store';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
             <ShoppingList />
           </Container>
         </div>
+        <Footer />
       </Provider>
     );
   }
